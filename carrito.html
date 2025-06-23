@@ -39,11 +39,11 @@
                             <button><i class="fa-solid fa-trash-can"></i></button>
                             <p>Producto 1</p>
                             <div class="agregar">
-                                <form action="">
+                                <div class="amount">
                                     <button class="restar"><i class="fa-solid fa-square-minus"></i></button>
                                     <input type="number" name="cant" id="cant" min="0" value="1">
                                     <button class="sumar"><i class="fa-solid fa-square-plus"></i></button>
-                                </form>
+                                </div>
                                 <div>
                                     <p class="subtotal">{precio U}</p>
                                     <p class="precio">${subTotal}</p>
@@ -59,25 +59,32 @@
                             <button><i class="fa-solid fa-trash-can"></i></button>
                             <p>Producto 2</p>
                             <div class="agregar">
-                                <form action="">
+                                <div class="amount">
                                     <button class="restar"><i class="fa-solid fa-square-minus"></i></button>
                                     <input type="number" name="cant" id="cant" min="0" value="1">
                                     <button class="sumar"><i class="fa-solid fa-square-plus"></i></button>
-                                </form>
+                                </div>
                                 <div>
-                                    <p class="subtotal">total</p>
-                                    <p class="precio">$3500</p>
+                                    <p class="subtotal">{precio U}</p>
+                                    <p class="precio">${subTotal}</p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                </div>
-                <div class="total">
-                    <p>TOTAL</p>
-                    <p class="precio">$5000</p>
+
                 </div>
 
-                <button class="comprar">Comprar Ahora</button>
+                <div id="total">
+                    <div class="total">
+                        <p>TOTAL</p>
+                        <p class="precio">$${total}</p>
+                    </div>
+
+                    <button class="comprar" id="finalizarCompra">Comprar Ahora</button>
+                    <button class="vaciar" id="vaciar">Vaciar Carrito</button>
+                </div>
+
 
 
             </section>
