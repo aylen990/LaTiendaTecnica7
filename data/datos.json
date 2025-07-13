@@ -4,7 +4,7 @@
         "title": "manzanas",
         "price": 1200,
         "description": "manzanas verdes",
-        "image": "manzana.jpg", 
+        "image": "images/productos/manzanas.jpg", 
         "stock": 200
     },
 
@@ -13,7 +13,7 @@
         "title": "kiwis",
         "price": 1300,
         "description": "kiwis ricos",
-        "image": "kiwis.jpg", 
+        "image": "images/productos/kiwis.jpg", 
         "stock": 300
     },
 
@@ -22,7 +22,7 @@
         "title": "sandias",
         "price": 12000,
         "description": "sandias cuadradas",
-        "image": "sandias.jpg", 
+        "image": "images/productos/sandias.jpg", 
         "stock": 100
     },
 
@@ -30,8 +30,8 @@
         "id": 4,
         "title": "uvas",
         "price": 30200,
-        "description": "uvas verdes",
-        "image": "uvas.jpg", 
+        "description": "uvas violetas",
+        "image": "images/productos/uvas.jpg", 
         "stock": 1500
     }
 ]
